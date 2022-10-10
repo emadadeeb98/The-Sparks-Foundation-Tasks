@@ -11,6 +11,7 @@ r = g = b = xpos = ypos = 0
 
 #Reading csv file with pandas and giving names to each column
 index=["color","color_name","hex","R","G","B"]
+# link to data https://github.com/codebrainz/color-names/blob/master/output/colors.csv
 csv = pd.read_csv('colors.csv', names=index, header=None)
 print (csv)
 #function to calculate minimum distance from all colors and get the most matching color
